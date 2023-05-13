@@ -48,7 +48,7 @@ search.addEventListener('click', ()=>{
                 image.src='images/snow.png';
                 break;
                 defaut:
-                image.src = '';
+                image.src = '#';
                 
             }
 
