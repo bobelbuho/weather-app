@@ -52,6 +52,7 @@ search.addEventListener('click', ()=>{
                 
             }
 
+            temperature.innerHTML = `${parseInt(json.main.temp)}<span>C</span>`
     })
 
 })
